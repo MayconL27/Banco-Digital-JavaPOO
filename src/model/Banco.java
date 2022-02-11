@@ -1,4 +1,4 @@
 package model;
 public class Banco {
-    public String nome;
+    private String nome;
 }

@@ -1,6 +1,6 @@
 package model;
 public class Cliente {
 
-    public String nome;
+    private String nome;
     
 }
