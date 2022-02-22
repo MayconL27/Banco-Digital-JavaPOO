@@ -17,7 +17,6 @@ public class PaginaInicial extends Usuario{
         System.out.println("1 Fazer cadastro");
         System.out.println("2 Fazer Login");
         System.out.println("3 Sair");
-        System.out.println("4- listar usuarios");
         System.out.println("Digite a opção: ");
         int opcao = sc.nextInt();
         sc.nextLine();
@@ -46,9 +45,13 @@ public class PaginaInicial extends Usuario{
             System.out.println("Digite senha: ");
             String senhaLog = sc.nextLine();
 
-            break;
+            System.out.println("Logado...");
+
+            PaginaLogado.paginaLogado();
+    
 
             } 
+            break;
 
             case 3: {
                 rodando = false;
