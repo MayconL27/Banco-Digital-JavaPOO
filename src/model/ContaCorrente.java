@@ -1,20 +1,10 @@
 package model;
 
-public class ContaCorrente {
+public class ContaCorrente extends Conta{
 
-    private int agencia;
-    private int numero;
-    private double saldo;
-
-    public void sacar() {
-
+    public void imprimirExtrato() {
+        System.out.println("Extrato Conta Corrente");
+        super.imprimirInfoComuns();   
     }
-    public void depositar() {
-
-    }
-    public void transferir() {
-
-    }
-
     
 }
